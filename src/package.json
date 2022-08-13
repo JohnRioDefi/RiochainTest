@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@polkadot/api": "^9.0.1",
+    "@polkadot/keyring": "^10.1.2",
+    "@polkadot/util": "^10.1.2",
+    "@polkadot/util-crypto": "^10.1.2",
+    "ethereumjs-abi": "^0.6.8",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.1.5",
+    "web3": "^1.7.5",
+    "web3-eth": "^1.7.5"
+  }
+}
