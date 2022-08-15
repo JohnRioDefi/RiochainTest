@@ -6,8 +6,7 @@ const Tx = require("ethereumjs-tx").Transaction;
 const Web3 = require('web3');
 
 ////////////////////////////////////////////////////////////
-//const PROVIDER = 'ws://10.0.0.253:43001';
-const PROVIDER = 'ws://192.168.182.129:43001';
+const PROVIDER = 'ws://10.0.0.253:43001';
 const SENDER = "//...//01";
 const GAS_LIMIT = 10000000n;
 const GAS_PRICE = 100000000n;
@@ -411,7 +410,7 @@ async function call_contract_method_getbalance(provider, sender, contract_addres
     //await create(PROVIDER, SENDER, Json['bytecode']);
 
     //the contract address is from create
-    var contract_address = "0x6b400b10c28ab02b6dc43ab719ddc04009f08c37";
+    var contract_address = "0x8c69d2ac61aacc65c386b1bcdda64ad4e6022b90";
     //await call_contract_method_multiply(PROVIDER, SENDER, contract_address);
     //await call_contract_method_transfer(PROVIDER, SENDER, contract_address);
     //await call_contract_method_getbalance(PROVIDER, SENDER, contract_address);
